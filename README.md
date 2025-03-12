@@ -3,7 +3,7 @@
 ## 📌 Overview
 
 This project implements a custom version of the Rock-Paper-Scissors game using **SIS** and **Verilog**. 
-It was developed as part of a digital design course and features a finite state machine (FSM) 
+It was developed as part of a computer architecture course and features a finite state machine (FSM) 
 combined with a datapath to enforce unique game rules.
 
 ## 🎮 Game Rules
