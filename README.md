@@ -32,30 +32,36 @@ The project consists of two main components:
 
 1. **Clone the repository**  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/morelli03/progetto-sis.git
    ```
 2. **Navigate to the project folder**  
    ```bash
-   cd <repository-directory>
+   cd progetto-sis
    ```
 3. **Compile and simulate** using your preferred Verilog tool.
 
 ## 📂 Project Files
 
-- `main.v` – Top-level Verilog module.
-- `fsm.v` – FSM implementation.
-- `datapath.v` – Datapath module.
-- `relazione.pdf` – Detailed project documentation.
-- `README.md` – This file.
+### SIS
+
+- `FSMD.blif` – BLIF format file containing the synthesized FSM and datapath.
+- `output_sis.txt` – Simulation output results.
+- `testbench.script` – SIS simulation script for testing the implementation.
+
+### Verilog
+
+- `design.sv` – Main implementation of the Rock-Paper-Scissors (MorraCinese) module.
+- `testbench.sv` – Testbench for simulating and validating the design.
+- `output_verilog.txt` – Simulation output results showing game progression.
 
 ## 👥 Contributors
 
-- **Marianna Frigo** (VR501883)
-- **Riccardo Morelli** (VR503097)
+- **Marianna Frigo**
+- **Riccardo Morelli**
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
 ## 🙌 Acknowledgments
 
