@@ -1,0 +1,9 @@
+.model MUX4-4.blif
+.inputs S1 S0 A3 A2 A1 A0 B3 B2 B1 B0 C3 C2 C1 C0 D3 D2 D1 D0
+.outputs O3 O2 O1 O0
+.subckt MUX4-1.blif S1=S1 S0=S0 i3=A3 i2=B3 i1=C3 i0=D3 O=O3
+.subckt MUX4-1.blif S1=S1 S0=S0 i3=A2 i2=B2 i1=C2 i0=D2 O=O2
+.subckt MUX4-1.blif S1=S1 S0=S0 i3=A1 i2=B1 i1=C1 i0=D1 O=O1
+.subckt MUX4-1.blif S1=S1 S0=S0 i3=A0 i2=B0 i1=C0 i0=D0 O=O0
+.search MUX4-1.blif
+.end

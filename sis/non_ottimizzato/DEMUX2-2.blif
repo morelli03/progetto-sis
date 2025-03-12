@@ -1,0 +1,7 @@
+.model DEMUX2-2.blif
+.inputs S A1 A0 
+.outputs X1 X0 Y1 Y0
+.subckt DEMUX2-1.blif S=S IN=A1 O1=X1 O0=Y1
+.subckt DEMUX2-1.blif S=S IN=A0 O1=X0 O0=Y0
+.search DEMUX2-1.blif 
+.end

@@ -1,0 +1,6 @@
+.model maggiore1.blif
+.inputs A B
+.outputs O
+.names A B O
+10 1
+.end

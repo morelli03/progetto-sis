@@ -1,0 +1,11 @@
+.model uguale5.blif
+.inputs A4 A3 A2 A1 A0 B4 B3 B2 B1 B0
+.outputs O
+.subckt uguale4.blif A3=A4 A2=A3 A1=A2 A0=A1 B3=B4 B2=B3 B1=B2 B0=B1 O=O1
+.subckt uguale1.blif A=A0 B=B0 O=O0
+.names O1 O0 O
+11 1
+.search uguale4.blif
+.search uguale1.blif
+.end
+

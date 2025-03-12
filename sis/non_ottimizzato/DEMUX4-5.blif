@@ -1,0 +1,9 @@
+.model DEMUX4-5.blif
+.inputs S1 S0 IN4 IN3 IN2 IN1 IN0
+.outputs X4 X3 X2 X1 X0 Y4 Y3 Y2 Y1 Y0 Z4 Z3 Z2 Z1 Z0 W4 W3 W2 W1 W0
+.subckt DEMUX4-1.blif S1=S1 S0=S0 IN=IN4 X=X4 Y=Y4 Z=Z4 W=W4
+.subckt DEMUX4-1.blif S1=S1 S0=S0 IN=IN3 X=X3 Y=Y3 Z=Z3 W=W3
+.subckt DEMUX4-1.blif S1=S1 S0=S0 IN=IN2 X=X2 Y=Y2 Z=Z2 W=W2
+.subckt DEMUX4-1.blif S1=S1 S0=S0 IN=IN1 X=X1 Y=Y1 Z=Z1 W=W1
+.subckt DEMUX4-1.blif S1=S1 S0=S0 IN=IN0 X=X0 Y=Y0 Z=Z0 W=W0
+.search DEMUX4-1.blif

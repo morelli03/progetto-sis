@@ -1,0 +1,9 @@
+.model uguale2.blif
+.inputs A1 A0 B1 B0
+.outputs O
+.names A1 A0 B1 B0 O
+0101 1
+1010 1
+1111 1
+0000 1
+.end

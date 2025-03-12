@@ -1,0 +1,8 @@
+.model DEMUX2-1.blif
+.inputs S IN
+.outputs O1 O0
+.names S IN O1
+11 1
+.names S IN O0
+01 1
+.end

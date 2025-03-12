@@ -1,0 +1,12 @@
+.model DEMUX4-1.blif
+.inputs S1 S0 IN
+.outputs X Y Z W
+.names S1 S0 IN X
+001 1
+.names S1 S0 IN Y
+011 1
+.names S1 S0 IN Z
+101 1
+.names S1 S0 IN W
+111 1
+.end

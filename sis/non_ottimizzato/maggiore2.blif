@@ -1,0 +1,15 @@
+.model maggiore2.blif
+.inputs A1 A0 B1 B0
+.outputs O
+.subckt maggiore1.blif A=A1 B=B1 O=O1
+.subckt maggiore1.blif A=A0 B=B0 O=O0
+.names A1 B1 K
+00 1
+11 1
+.names O1 O0 K O
+1-- 1
+011 1
+.search maggiore1.blif
+.end
+
+
